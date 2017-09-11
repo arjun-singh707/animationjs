@@ -1,0 +1,15 @@
+{
+  "name": "animationjs",
+  "version": "1.0.0",
+  "description": "Animation library with animate.css",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --inline --progress --watch --open"
+  },
+  "author": "Ravi Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  },
+  "devDependencies": {}
+}

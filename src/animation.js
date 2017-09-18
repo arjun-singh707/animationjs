@@ -12,6 +12,7 @@ var animationJs = (function(){
 
     animationJs.prototype.bounce = function(divId){
         var element = getElement(divId);
+        console.log(element);
         element.classList.remove('bounce');
         setTimeout(function(){
             element.classList.add('bounce');

@@ -1,0 +1,33 @@
+body {
+    background-color: #2f475d;
+    color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#title {
+    width: 300px;
+    margin: 0 auto; 
+}
+
+#desc {
+    width: 400px;
+    margin: 0 auto; 
+}
+
+.img-size {
+    width: 600px;
+    height: 300px;
+    margin-left:300px;
+}
+
+.img-size img {
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    width: 600px;
+    height: 300px;
+    margin-left:320px;
+}

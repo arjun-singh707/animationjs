@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+  </head>
+  <body>
+    <div id="title">
+        <h1>AnimationJs</h1>
+    </div>
+    <div id="desc">
+      <h3>Animate.css with JavaScript</h3>
+    </div>
+
+    <div class="img-size" id="pic">
+      <img class="card-img-top" src="https://static.pexels.com/photos/257360/pexels-photo-257360.jpeg" alt="Card image cap">
+    </div>
+    <br>
+    <div class="buttons">
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('flipInX')">flipInX</button>
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('slideInUp')">slideInUp</button>
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('zoomIn')">zoomIn</button>
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('zackInTheBox')">jackInTheBox</button>
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('hinge')">hinge</button>
+      <button type="button" class="btn btn-outline-primary" onclick="animateImg('rollIn')">rollIn</button>
+    </div>
+
+
+    <script src="../dist/animation.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
